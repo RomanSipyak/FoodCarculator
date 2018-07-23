@@ -7,6 +7,6 @@ class Ingredient
 
   def ==(ingredient)
     return false unless ingredient.is_a?(Ingredient)
-    true if ingredient.name == self.name && ingredient.cost == self.cost
+     ingredient.name == self.name && ingredient.cost == self.cost
   end
 end

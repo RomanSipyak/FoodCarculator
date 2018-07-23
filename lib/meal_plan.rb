@@ -32,7 +32,6 @@ class MealPlan
           mem + x.quantity
         end]
         res_q + value_q
-
     end
     res_q
   end

@@ -30,6 +30,6 @@ class IngredientQuantity
 
   def ==(quantity)
     return false unless quantity.is_a?(IngredientQuantity)
-    true if quantity.ingredient == ingredient && quantity.quantity == self.quantity
+    quantity.ingredient == ingredient && quantity.quantity == self.quantity
   end
 end

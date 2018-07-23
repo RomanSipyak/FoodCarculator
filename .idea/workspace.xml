@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="496d4579-6c2a-4197-a95b-52dc0fc9a3ee" name="Default" comment="" />
+    <list default="true" id="496d4579-6c2a-4197-a95b-52dc0fc9a3ee" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ingredient.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ingredient.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ingredient_quantity.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ingredient_quantity.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/meal_plan.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/meal_plan.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/MealPlan_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/meal_plan_spec.rb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +38,8 @@
       <file leaf-file-name="ingredient_quantity.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/ingredient_quantity.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="386">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -41,8 +47,8 @@
       <file leaf-file-name="ingredient.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/ingredient.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="60">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -65,8 +71,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MealPlan_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/MealPlan_spec.rb">
+      <file leaf-file-name="meal_plan_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/meal_plan_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
               <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
@@ -77,8 +83,8 @@
       <file leaf-file-name="meal_plan.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/meal_plan.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="356">
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -95,8 +101,8 @@
       <file leaf-file-name="recipe.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/recipe.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="375">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -120,15 +126,15 @@
         <option value="$PROJECT_DIR$/lib/recipe_spec.rb" />
         <option value="$PROJECT_DIR$/spec/MealPlan.rb" />
         <option value="$PROJECT_DIR$/spec/ingredient_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/ingredient.rb" />
         <option value="$PROJECT_DIR$/spec/ingredient_quantity_spec.rb" />
         <option value="$PROJECT_DIR$/spec/recipe_spec.rb" />
         <option value="$PROJECT_DIR$/spec/meal_serving_spec.rb" />
         <option value="$PROJECT_DIR$/spec/MealPlan_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/meal_plan.rb" />
         <option value="$PROJECT_DIR$/lib/meal_serving.rb" />
         <option value="$PROJECT_DIR$/lib/recipe.rb" />
+        <option value="$PROJECT_DIR$/lib/ingredient.rb" />
         <option value="$PROJECT_DIR$/lib/ingredient_quantity.rb" />
+        <option value="$PROJECT_DIR$/lib/meal_plan.rb" />
       </list>
     </option>
   </component>
@@ -213,27 +219,27 @@
       <workItem from="1532182170543" duration="7859000" />
       <workItem from="1532247796089" duration="18603000" />
       <workItem from="1532296999916" duration="9346000" />
-      <workItem from="1532342030947" duration="4407000" />
+      <workItem from="1532342030947" duration="5234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57435000" />
+    <option name="totallyTimeSpent" value="58262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24942264" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3293718" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3293718" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24942264" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293718" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -242,7 +248,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293718" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +320,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/MealPlan_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/meal_plan_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
@@ -364,7 +369,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/MealPlan_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/meal_plan_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" selection-end-line="54" />
@@ -434,7 +439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/MealPlan_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/meal_plan_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" selection-end-line="54" />
@@ -532,17 +537,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/MealPlan_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/meal_plan_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/recipe.rb">
+    <entry file="file://$PROJECT_DIR$/lib/meal_plan.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="356">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -553,24 +558,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/meal_plan.rb">
+    <entry file="file://$PROJECT_DIR$/lib/recipe.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="375">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/ingredient_quantity.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="386">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/ingredient.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="60">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
