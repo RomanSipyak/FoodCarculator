@@ -20,19 +20,28 @@ class MealPlan
   def total_cost
     meal_serving.reduce(0) { |mem, x| mem + (x.total_cost * individuals_count) }
   end
-# i don't test this method
+
   def grouped_ingredient_quantities
-    meal_serving_res = meal_serving.map { |servis| servis.times = servis.times * individuals_count }
-    meal_i_quantity_res = meal_serving_res.map(&:total_ingredient_quantities)
-    meal_i_quantity_res.flatten
-    meal_i_quantity_res.group_by { |i| i }
-    res_q = []
-    meal_i_quantity_res.each do |key, value|
-        value_q = [value[0].quantity = value.reduce(0) do |mem, x|
-          mem + x.quantity
-        end]
-        res_q + value_q
+    meal_serving_res = meal_serving.map do |servis|
+      servis.times *= individuals_count
+      servis
     end
-    res_q
+    meal_serving_res.map!(&:total_ingredient_quantities)
+    meal_serving_res = meal_serving_res.flatten
+    i = 0
+    puts  meal_serving_res
+    while i < meal_serving_res.size
+      a = i + 1
+      while a < meal_serving_res.size
+        if meal_serving_res[i].ingredient == meal_serving_res[a].ingredient
+          meal_serving_res[i].quantity = meal_serving_res[i].quantity + meal_serving_res[a].quantity
+          meal_serving_res[a] = nil
+        end
+        meal_serving_res.compact!
+        a += 1
+      end
+      i += 1
+    end
+    meal_serving_res
   end
 end

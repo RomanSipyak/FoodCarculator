@@ -32,4 +32,8 @@ class IngredientQuantity
     return false unless quantity.is_a?(IngredientQuantity)
     quantity.ingredient == ingredient && quantity.quantity == self.quantity
   end
+
+  def to_s
+    "*#{@ingredient} + #{@quantity}*"
+  end
 end

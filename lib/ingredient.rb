@@ -9,4 +9,8 @@ class Ingredient
     return false unless ingredient.is_a?(Ingredient)
      ingredient.name == self.name && ingredient.cost == self.cost
   end
+
+  def to_s
+    "#{@name} + #{@cost}"
+  end
 end
